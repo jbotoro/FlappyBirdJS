@@ -2,7 +2,7 @@ const canvas = document.getElementById("flappybird");
 const context = canvas.getContext("2d");
 
 const gameImage = new Image();
-gameImage.src = "../images/sprite.png"
+gameImage.src = "../images/sprite.png";
 
 export const start = {
     sX: 0,

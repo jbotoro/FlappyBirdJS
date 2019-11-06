@@ -9,7 +9,18 @@ const canvas = document.getElementById("flappybird");
 const context = canvas.getContext("2d");
 
 const gameImage =  new Image();
-gameImage.src = "../images/sprite.png"
+gameImage.src = "../images/sprite.png";
+
+const flapAudio = new Audio();
+flapAudio.src = '../audio/sfx_flap.wav';
+const scoreAudio = new Audio();
+scoreAudio.src = '../audio/sfx_point.wav';
+const deathAudio = new Audio();
+deathAudio.src = '../audio/sfx_die.wav';
+const hitAudio = new Audio();
+hitAudio.src = '../audio/sfx_hit.wav';
+const fallingAudio = new Audio();
+fallingAudio.src = '../audio/sfx_swooshing.wav';
 
 document.addEventListener("click", function(e){
     switch(state.current) {
@@ -54,16 +65,7 @@ const startButton = {
     h: 29
 }
 
-const flapAudio = new Audio();
-flapAudio.src = '../audio/sfx_flap.wav';
-const scoreAudio = new Audio();
-scoreAudio.src = '../audio/sfx_point.wav';
-const deathAudio = new Audio();
-deathAudio.src = '../audio/sfx_die.wav';
-const hitAudio = new Audio();
-hitAudio.src = '../audio/sfx_hit.wav';
-const fallingAudio = new Audio();
-fallingAudio.src = '../audio/sfx_swooshing.wav';
+
 
 const DEGREE = Math.PI/180;
 
