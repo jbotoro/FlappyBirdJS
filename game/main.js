@@ -9,18 +9,18 @@ const canvas = document.getElementById("flappybird");
 const context = canvas.getContext("2d");
 
 const gameImage =  new Image();
-gameImage.src = "../images/sprite.png";
+gameImage.src = "/FlappyBirdJS/images/sprite.png";
 
 const flapAudio = new Audio();
-flapAudio.src = '../audio/sfx_flap.wav';
+flapAudio.src = '/FlappyBirdJS/audio/sfx_flap.wav';
 const scoreAudio = new Audio();
-scoreAudio.src = '../audio/sfx_point.wav';
+scoreAudio.src = '/FlappyBirdJS/audio/sfx_point.wav';
 const deathAudio = new Audio();
-deathAudio.src = '../audio/sfx_die.wav';
+deathAudio.src = '/FlappyBirdJS/audio/sfx_die.wav';
 const hitAudio = new Audio();
-hitAudio.src = '../audio/sfx_hit.wav';
+hitAudio.src = '/FlappyBirdJS/audio/sfx_hit.wav';
 const fallingAudio = new Audio();
-fallingAudio.src = '../audio/sfx_swooshing.wav';
+fallingAudio.src = '/FlappyBirdJS/audio/sfx_swooshing.wav';
 
 document.addEventListener("click", function(e){
     switch(state.current) {
