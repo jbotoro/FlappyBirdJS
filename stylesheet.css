@@ -39,9 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 100px;
-    width: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .Header-logos a {
