@@ -1,0 +1,46 @@
+body {
+    background-color: grey;
+}
+
+.Flappy-js-header  {
+    display: flex;
+    flex-direction: column;
+}
+
+.Flappy-js-header h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Teko', serif;
+    text-shadow: 2px 2px #000;
+    color: #fcb700;
+    font-weight: 700;
+}
+
+.Flappy-js-header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Teko', serif;
+    text-shadow: 2px 2px #000;
+    color: #fcb700;
+    font-weight: 700;
+}
+
+.Flappy-js-header a {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    flex-direction: row;
+}
+
+.Header-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Header-logos a {
+    padding-right: 10px;
+}

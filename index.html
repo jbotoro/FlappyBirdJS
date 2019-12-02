@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Flappy </title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:700">
+    <link rel='stylesheet' href="./stylesheet.css">
     <style>
         canvas {
             border: 1px solid #000;
@@ -15,7 +16,23 @@
     </style>
 </head>
 <body>
+    <div class='Flappy-js-header'>
+        <h1> FlappyBirdJS</h1>
+        <h2> Created by: Jordan Black</h2>
+
+        <div class='Header-logos'>
+            <a href="https://github.com/jbotoro">
+                <img src="/FlappyBirdJS/images/github-logo.png">
+            </a>
+            <a href='https://www.linkedin.com/in/jordan-black-a88b0481/'>
+                <img src='/FlappyBirdJS/images/linkedin-logo.png'>
+            </a>
+        </div>
+        
+    </div>
     <canvas id='flappybird' width = '320' height='480'></canvas>
     <script type ='module' src= './game/main.js'></script>
+
+    
 </body>
 </html>
